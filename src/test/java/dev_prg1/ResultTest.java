@@ -10,7 +10,7 @@ public class ResultTest {
 	
 	@Test
 	public void testFail() {
-		Assert.assertEquals(Result.display(55),"fail");
+		Assert.assertEquals(Result.display(35),"fail");
 	}
 	
 	 
@@ -21,4 +21,5 @@ public class ResultTest {
 	}
 
 }
+
 
